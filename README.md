@@ -1,2 +1,2 @@
 # sign up page
-mini project for college
+<p>I made a static sign up page by the HTML & CSS </p>
