@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.box{
+    width: 90%;
+    max-width: 400px;
+    height: 50%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:rgba(91, 162, 232, 0.853);
+    padding: 50px,60px,70px;
+    text-align: center;
+    border-radius: 20px;
+}
+.box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: black;
+    position: relative;
+}
+
+.box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background:black;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.input-field {
+    background: transparent;
+    margin:10px 0;
+    border-radius: 3px;
+    align-items: center;
+    display:flex;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 18px;
+    color: black;
+}
+.input-field i{
+    margin-left: 15px;
+    color: black;
+}
+form p{
+    font-size: 13px;
+    margin:10px;
+    color: black;
+}
+form p a{
+    text-decoration:underline;
+    color: blue;
+}
+.butn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.butn button{
+    flex-basis: 38%;
+    background: #3c00a0;
+    color: #fff;
+    height: 30px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
